@@ -4,7 +4,7 @@
 
 ## Vamos imaginar que o lado do client enviará, por meio dos campos **name** e **age** informações sobre a idade e o nome do usuário.
 
-    > {
+    {
         "name": "Meika"
         "idade": 18
     }
