@@ -48,5 +48,5 @@
         res.json({message: err.message}).status(400)
     }
 
-#### Utilizando o *try/catch* nós podemos capturar possíveis erros, sendo possível o envio de um aviso ao client. Dentro do *try* nós chamamos o schema.validateAsync() passando como parâmetro nossos campo vindos do corpo da requisição. O validateAsync(), por sua vez, irá verificar se oo conteúdos dos campos estão como informamos que deveriam estar.
+#### Utilizando o *try/catch* nós podemos capturar possíveis erros, sendo possível o envio de um aviso ao client. Dentro do *try* nós chamamos o schema.validateAsync() passando como parâmetro nossos campo vindos do corpo da requisição. O validateAsync(), por sua vez, irá verificar se o conteúdo dos campos estão como informamos que deveriam estar. O *catch* será executado caso o *try* tenha capturado algum erro. Dentro do *catch* nós capturamos a mensagem do erro e enviamos como resposta para o client, juntamente com o [status code](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status) 400.
 
