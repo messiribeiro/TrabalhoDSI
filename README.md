@@ -6,7 +6,7 @@
 
     {
         "name": "Meika"
-        "idade": 18
+        "age": 18
     }
 
 ##### é esperado que chegue no corpo da requisição um campo "name" contendo uma string, e um campo "age" contendo um número inteiro (integer), por isso, devemos fazer uma validação para que os dados da requisição cheguem como esperado.
